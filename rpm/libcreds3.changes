@@ -1,0 +1,26 @@
+* Mon Dec 10 2012 Marko Saukko <marko.saukko@jollamobile.com> - 1.3.1
+- Updated packaging.
+
+* Thu Jan 27 2011 Peter J Zhu <peter.j.zhu@intel.com> - 1.3.1
+- devel subpackage provides/obsoletes version 2 devel package
+- Move .so in devel package from main package
+
+* Fri Jan 21 2011 Ryan Ware <ryan.r.ware@intel.com> - 1.3.1
+- Removed some provides/obsoletes as directed by Peter.
+- Needed for FEA#9093
+ 
+* Wed Jan 19 2011 Ryan Ware <ryan.r.ware@intel.com> - 1.3.1
+- Fixed obsoletes and provides so that this package meets the requirements for any package needing a libcreds2 >= 1.3.0.
+- Removed building of static libraries.
+
+* Wed Jan 19 2011 Elena Reshetova <elena.reshetova@nokia.com> - 1.3.1
+- New version release with libsmack dependecy
+- Tools package separated
+
+* Tue Jan 11 2011 Ryan Ware <ryan.r.ware@intel.com> - 1.3.0
+- Added .yaml file for specify
+- Fixed version number
+
+* Tue Jan 11 2011 Elena Reshetova <elena.reshetova@nokia.com> - 1.3.0
+- initial packaging
+- FEA#9093
